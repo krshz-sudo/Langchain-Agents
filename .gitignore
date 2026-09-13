@@ -1,0 +1,20 @@
+# Python environment - ignore all third-party libraries
+.venv/
+venv/
+env/
+
+# Environment variables & API keys - DO NOT COMMIT
+.env
+*.env
+
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Editor and OS-specific files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
